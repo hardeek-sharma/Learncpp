@@ -1,6 +1,6 @@
 # LearnCpp.com Practice Repository
 
-This repository contains my personal practice code and exercises from [LearnCpp.com](https://www.learncpp.com/), as I work toward mastering modern C++ (C++17/20).
+This repository contains my personal practice code and exercises from [LearnCpp.com](https://www.learncpp.com/), as I work toward mastering modern C++.
 
 ## 🛠️ Tools Used
 
