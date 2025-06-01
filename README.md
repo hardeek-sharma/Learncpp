@@ -4,9 +4,9 @@ This repository contains my personal practice code and exercises from [LearnCpp.
 
 ## 🛠️ Tools Used
 
-- **Compiler**`clang++`
-- **Editor**Visual Studio Code (macOS)
-- **Version Control**Git + GitHub (SSH enabled)
+- **Compiler** `clang++`
+- **Editor** Visual Studio Code (macOS)
+- **Version Control** Git + GitHub (SSH enabled)
 
 ## 🎯 Goals
 
