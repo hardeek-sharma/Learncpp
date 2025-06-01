@@ -17,5 +17,5 @@ and
 
 ./TEST
 
-and a TEST file
+and a TEST file.
 */
