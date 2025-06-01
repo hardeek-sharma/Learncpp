@@ -1,0 +1,21 @@
+To compile Multiple files with terminal below do 
+
+clang++ file1.cpp file2.cpp file3.cpp -o outputName
+
+and then 
+
+./outputName
+
+to run the folder and its files within.
+
+/*
+name the output name the folder name. So for Folder TEST you would have
+
+clang++ file1.cpp file2.cpp file3.cpp -o TEST
+
+and 
+
+./TEST
+
+and a TEST file
+*/
