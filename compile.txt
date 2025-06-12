@@ -1,6 +1,6 @@
 To compile Multiple files with terminal below do 
 
-clang++ file1.cpp file2.cpp file3.cpp -o outputName.out
+clang++ file1.cpp file2.cpp file3.cpp -o outputName
 
 and then 
 
