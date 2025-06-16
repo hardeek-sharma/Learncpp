@@ -1,15 +1,22 @@
 #include <iostream>
 
-void printValue(int value)
+int add(int x, int y)
 {
-    std::cout << value << '\n';
+	return x + y;
+}
+
+void testadd()
+{
+	std::cout << "This function should print: 2 0 0 -2\n";
+	std::cout << add(1, 1) << ' ';
+	std::cout << add(-1, 1) << ' ';
+	std::cout << add(1, -1) << ' ';
+	std::cout << add(-1, -1) << ' ';
 }
 
 int main()
 {
-    printValue(5);
-    printValue(6);
-    printValue(7);
+	testadd();
 
-    return 0;
+	return 0;
 }

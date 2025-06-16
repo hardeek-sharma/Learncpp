@@ -17,6 +17,7 @@
                 "-Wconversion",
                 "-Wsign-conversion",
                 "-std=c++23",
+                "*.cpp",
                 "${fileDirname}/main.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
