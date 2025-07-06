@@ -1,1 +1,59 @@
-*.dSYM
+# ============================
+# OS / System Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Compiled Object & Binary Files
+# ============================
+*.out
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+
+# ============================
+# Debug Symbols (macOS)
+# ============================
+*.dSYM/
+
+# ============================
+# Build & Distribution Folders
+# ============================
+build/
+bin/
+dist/
+
+# ============================
+# Temporary / Backup Files
+# ============================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ============================
+# Editor & IDE Files
+# ============================
+.idea/
+*.code-workspace
+
+# ============================
+# Clang / Static Analysis
+# ============================
+.cache/
+.clangd/
+
+# ============================
+# Other C++ Tools
+# ============================
+cmake-build-*/
+Makefile
+CMakeCache.txt
+compile_commands.json
