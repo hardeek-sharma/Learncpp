@@ -23,15 +23,15 @@ This repository contains my personal practice code and exercises from [LearnCpp.
 - ❌ **Chapter 9** (7)  
 - ❌ **Chapter 10** (10)  
 - ❌ **Chapter 11** (11)  
-- ❌ **Chapter F** (5)  *(Constexpr Functions)*  
+- ❌ **Chapter F** (5)  *(Optional: Constexpr Functions)*  
 - ❌ **Chapter 12** (14)  
 - ❌ **Chapter 13** (15)  
 - ❌ **Chapter 14** (15)  
 - ❌ **Chapter 15** (11)  
 - ❌ **Chapter 16** (12)  
 - ❌ **Chapter 17** (13)  
-- ❌ **Chapter 18** (4)  *(Under construction)*  
-- ❌ **Chapter 19** (5)  *(Under construction)*  
+- ❌ **Chapter 18** (4)  *(Under construction: Fewer lessons for now)*  
+- ❌ **Chapter 19** (5)  *(Under construction: Fewer lessons for now)*  
 - ❌ **Chapter 20** (8)  
 - ❌ **Chapter 21** (13)  
 - ❌ **Chapter 22** (7)  
