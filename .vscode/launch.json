@@ -31,8 +31,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/hardeeksharma/Documents/hardeeksCode/Learncpp/questionQuiz/L3x_q2",
-      "program": "/Users/hardeeksharma/Documents/hardeeksCode/Learncpp/questionQuiz/L3x_q2/build/Debug/outDebug"
+      "cwd": "/Users/hardeeksharma/Documents/hardeeksCode/Learncpp/quizAnswers/chapter4/lessonX",
+      "program": "/Users/hardeeksharma/Documents/hardeeksCode/Learncpp/quizAnswers/chapter4/lessonX/build/Debug/outDebug"
     }
   ],
   "version": "2.0.0"
