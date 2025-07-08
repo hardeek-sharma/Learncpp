@@ -8,13 +8,6 @@ This repository contains my personal practice code and exercises from [LearnCpp.
 - **Editor** Visual Studio Code (macOS)
 - **Version Control** Git + GitHub (SSH enabled)
 
-## 🎯 Goals
-
-- Build a strong foundation in C++
-- Practice writing clean and modular code
-- Prepare for advanced concepts like classes, pointers, and memory management
-- Apply C++ in Arduino, robotics, and embedded systems
-
 ## 📚 Progress Tracker
 
 - ✅ **Chapter 0** (13)  
