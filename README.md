@@ -15,8 +15,8 @@ This repository contains my personal practice code and exercises from [LearnCpp.
 - ✅ **Chapter 2** (14)  
 - ✅ **Chapter 3** (11)  
 - ✅ **Chapter 4** (12)
-- ❌ **Chapter 5** (9)  
-- ❌ **Chapter 6** (8)  
+- ✅ **Chapter 5** (9)  
+- 🟡 **Chapter 6** (8)  
 - ❌ **Chapter O** (4)  *(Optional: Bit Manipulation)*  
 - ❌ **Chapter 7** (14)  
 - ❌ **Chapter 8** (15)  
