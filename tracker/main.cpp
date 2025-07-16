@@ -22,11 +22,13 @@ int main()
     getChapter();
     getLesson();
 
+    std::cout << "\nTotal lessons: " << getTotal() << '\n';
+    
     completed = getCompleted();
     left = getLeft();
     percentage = getPercentage();
 
-    std::cout << "\nTotal lessons: " << getTotal() << '\n';
+    
 
     if (completed == total || left == 0)
     {
