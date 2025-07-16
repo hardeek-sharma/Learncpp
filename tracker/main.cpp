@@ -23,7 +23,7 @@ int main()
     getLesson();
 
     std::cout << "\nTotal lessons: " << getTotal() << '\n';
-    
+
     completed = getCompleted();
     left = getLeft();
     percentage = getPercentage();
@@ -48,13 +48,13 @@ int main()
 
 void getChapter()
 {
-    std::cout << "Chapter(0-33): ";
+    std::cout << "Chapter(1-33): ";
     std::cin >> chapter;
 }
 
 void getLesson()
 {
-    std::cout << "Lesson: ";
+    std::cout << "Lesson(0-" << chap[chapter] << "): ";
     std::cin >> lesson;
 }
 
