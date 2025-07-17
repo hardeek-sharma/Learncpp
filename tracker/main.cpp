@@ -34,7 +34,7 @@ int main()
     {
         do
         {
-            std::cout << "Congradulations!!! ";
+            std::cout << "Congratulations!!! ";
         } while (true);
         
     }
