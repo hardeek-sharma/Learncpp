@@ -54,7 +54,7 @@ void getChapter()
 
 void getLesson()
 {
-    std::cout << "Lesson(0-" << chap[chapter] << "): ";
+    std::cout << "Lesson(1-" << chap[chapter] << "): ";
     std::cin >> lesson;
 }
 
