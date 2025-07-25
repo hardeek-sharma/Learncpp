@@ -51,7 +51,19 @@ Complete the following program by writing the isPrime() function using a for-loo
 
 bool isPrime(int x)
 {
-    return false;
+    if (x <= 1)
+    {
+        return false;
+    }
+
+    for (int i{ 2 }; i < x; ++i)
+    {
+        if (x % i == 0)
+        {
+            return false;
+        }
+    }
+    return true;
     // write this function using a for loop
 }
 
@@ -79,20 +91,3 @@ int main()
 
     return 0;
 }
-
-/*
-Extra credit:
-
-The for-loop in the above solution is suboptimal for two reasons:
-
-It checks even divisors. We don’t need to test these (except for 2).
-It checks every number up to x to see if it is a divisor. A non-prime number (a composite number) must have at least one divisor less than or equal to its square root, so 
-checking for divisors beyond the square root of x is unnecessary. std::sqrt(x) (in the <cmath> header) returns the square root of x.
-
-For the latter, we have two options: calculate std::sqrt(x) prior to the loop, then test our loop variable against that value. Alternately, we can optimize std::sqrt(x) 
-out of the comparison entirely by squaring both sides of the comparison (h/t to reader JJag for suggesting this) (see the hint if you need additional help with this). 
-We’ll use this latter option in the quiz solution.
-
-Update the above solution to implement both of these optimizations.
-*/
-
