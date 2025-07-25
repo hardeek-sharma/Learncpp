@@ -136,7 +136,7 @@ void startGame()
         ++i;
     }
 
-    if (i == 8)
+    if (i == tries + 1)
     {
         std::cout << "Sorry, you lose. The correct number was " << num << ".\n";
         ++i;
