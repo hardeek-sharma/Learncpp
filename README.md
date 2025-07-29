@@ -10,6 +10,10 @@ This repository contains my personal practice code and exercises from [LearnCpp.
 
 ## 📚 Progress Tracker
 
+✅ - Completed
+🟡 - In Progress
+❌ - Untouched
+
 - ✅ **Chapter 0** (13)  
 - ✅ **Chapter 1** (12)  
 - ✅ **Chapter 2** (14)  
@@ -21,8 +25,8 @@ This repository contains my personal practice code and exercises from [LearnCpp.
 - ✅ **Chapter 7** (14)  
 - ✅ **Chapter 8** (15)  
 - ✅ **Chapter 9** (7)  
-- 🟡 **Chapter 10** (10)  
-- ❌ **Chapter 11** (11)  
+- ✅ **Chapter 10** (10)  
+- 🟡 **Chapter 11** (11)  
 - ❌ **Chapter F** (5)  *(Optional: Constexpr Functions)*  
 - ❌ **Chapter 12** (14)  
 - ❌ **Chapter 13** (15)  
