@@ -1,6 +1,6 @@
 {
   "files.insertFinalNewline": true,
-  "C_Cpp.default.cppStandard": "c++23",
+  "C_Cpp.default.cppStandard": "c++26",
   "files.associations": {
     "iostream": "cpp",
     "__bit_reference": "cpp",
@@ -51,7 +51,7 @@
   "C_Cpp_Runner.cCompilerPath": "clang",
   "C_Cpp_Runner.cppCompilerPath": "clang++",
   "C_Cpp_Runner.debuggerPath": "lldb",
-  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cStandard": "c23",
   "C_Cpp_Runner.cppStandard": "",
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.useMsvc": false,
@@ -83,7 +83,7 @@
     "/w14928"
   ],
   "C_Cpp_Runner.enableWarnings": true,
-  "C_Cpp_Runner.warningsAsError": false,
+  "C_Cpp_Runner.warningsAsError": true,
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [],
@@ -102,11 +102,14 @@
   "C_Cpp_Runner.useAddressSanitizer": false,
   "C_Cpp_Runner.useUndefinedSanitizer": false,
   "C_Cpp_Runner.useLeakSanitizer": false,
-  "C_Cpp_Runner.showCompilationTime": false,
+  "C_Cpp_Runner.showCompilationTime": true,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "cSpell.words": [
     "cout"
   ],
-  "C_Cpp.experimentalFeatures": "disabled"
+  "C_Cpp.experimentalFeatures": "enabled",
+  "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+  "C_Cpp.default.cStandard": "c23",
+  "editor.cursorBlinking": "blink"
 }

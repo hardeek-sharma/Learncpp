@@ -16,7 +16,7 @@
                 "-Wextra",
                 "-Wconversion",
                 "-Wsign-conversion",
-                "-std=c++23",
+                "-std=c++26",
                 "-Wshadow",
                 "${fileDirname}/main.cpp",
                 "-o",
