@@ -1,5 +1,6 @@
 #include <iostream>
 
+void ignoreLine();
 void getChapter();
 void getLesson();
 void getO();
@@ -51,39 +52,101 @@ int main()
     }
 }
 
+void ignoreLine()
+{
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+}
+
 void getChapter()
 {
-    std::cout << "Chapter(1-33): ";
-    std::cin >> chapter;
+    while (true)
+    {
+        std::cout << "Chapter(1-33): ";
+        std::cin >> chapter;
+
+        if (!std::cin || chapter < 1 || chapter > 33)
+        {
+            std::cin.clear(); 
+            ignoreLine(); 
+            std::cout << "That input was invalid. Try again.\n";
+            continue;
+        }
+
+        ignoreLine();
+        break;
+    }
 }
 
 void getLesson()
 {
-    std::cout << "Lesson(1-" << chap[chapter] << "): ";
-    std::cin >> lesson;
+    while (true)
+    {
+        std::cout << "Lesson(1-" << chap[chapter] << "): ";
+        std::cin >> lesson;
+
+        if (!std::cin || lesson < 1 || lesson > chap[chapter])
+        {
+            std::cin.clear(); 
+            ignoreLine(); 
+            std::cout << "That input was invalid. Try again.\n";
+            continue;
+        }
+
+        ignoreLine();
+        break;
+    }
+    
 }
 
 void getO()
 {
-    std::cout << "\nHow much of O(0-4): ";
-    int num{};
-    std::cin >> num;
-
-    if (num > 0)
+    while (true)
     {
-        completed += num;
+        std::cout << "\nHow much of O(0-4): ";
+        int num{};
+        std::cin >> num;
+
+    if (!std::cin || num < 1 || num > 4)
+    {
+        std::cin.clear(); 
+        ignoreLine(); 
+        std::cout << "That input was invalid. Try again.\n";
+        continue;
+    }        
+
+        if (num > 0)
+        {
+            completed += num;
+        }
+
+        ignoreLine();
+        break;
     }
 }
 
 void getF()
 {
-    std::cout << "How much of F(0-5): ";
-    int num{};
-    std::cin >> num;
-
-    if (num > 0)
+    while (true)
     {
-        completed += num;
+        std::cout << "\nHow much of F(0-5): ";
+        int num{};
+        std::cin >> num;
+
+    if (!std::cin || num < 1 || num > 5)
+    {
+        std::cin.clear(); 
+        ignoreLine(); 
+        std::cout << "That input was invalid. Try again.\n";
+        continue;
+    }        
+
+        if (num > 0)
+        {
+            completed += num;
+        }
+
+        ignoreLine();
+        break;
     }
 }
 
