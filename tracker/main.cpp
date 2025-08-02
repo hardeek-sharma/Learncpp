@@ -106,7 +106,7 @@ void getO()
         int num{};
         std::cin >> num;
 
-    if (!std::cin || num < 1 || num > 4)
+    if (!std::cin || num < 0 || num > 4)
     {
         std::cin.clear(); 
         ignoreLine(); 
@@ -132,7 +132,7 @@ void getF()
         int num{};
         std::cin >> num;
 
-    if (!std::cin || num < 1 || num > 5)
+    if (!std::cin || num < 0 || num > 5)
     {
         std::cin.clear(); 
         ignoreLine(); 
