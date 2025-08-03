@@ -27,8 +27,8 @@ This repository contains my personal practice code and exercises from [LearnCpp.
 - ✅ **Chapter 9** (7)  
 - ✅ **Chapter 10** (10)  
 - ✅ **Chapter 11** (11)  
-- 🟡 **Chapter F** (5)  *(Optional: Constexpr Functions)*  
-- ❌ **Chapter 12** (14)  
+- ✅ **Chapter F** (5)  *(Optional: Constexpr Functions)*  
+- 🟡 **Chapter 12** (14)  
 - ❌ **Chapter 13** (15)  
 - ❌ **Chapter 14** (15)  
 - ❌ **Chapter 15** (11)  
