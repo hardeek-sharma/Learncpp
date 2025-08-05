@@ -3,8 +3,8 @@
 void ignoreLine();
 void getChapter();
 void getLesson();
-void getO();
-void getF();
+// void getO();
+// void getF();
 int getTotal();
 int getCompleted();
 int getLeft();
@@ -25,8 +25,8 @@ int main()
 {
     getChapter();
     getLesson();
-    getO();
-    getF();
+    // getO();
+    // getF();
 
     std::cout << "\nTotal lessons: " << getTotal() << '\n';
 
@@ -98,57 +98,57 @@ void getLesson()
     
 }
 
-void getO()
-{
-    while (true)
-    {
-        std::cout << "\nHow much of O(0-4): ";
-        int num{};
-        std::cin >> num;
+// void getO()
+// {
+//     while (true)
+//     {
+//         std::cout << "\nHow much of O(0-4): ";
+//         int num{};
+//         std::cin >> num;
 
-    if (!std::cin || num < 0 || num > 4)
-    {
-        std::cin.clear(); 
-        ignoreLine(); 
-        std::cout << "That input was invalid. Try again.\n";
-        continue;
-    }        
+//     if (!std::cin || num < 0 || num > 4)
+//     {
+//         std::cin.clear(); 
+//         ignoreLine(); 
+//         std::cout << "That input was invalid. Try again.\n";
+//         continue;
+//     }        
 
-        if (num > 0)
-        {
-            completed += num;
-        }
+//         if (num > 0)
+//         {
+//             completed += num;
+//         }
 
-        ignoreLine();
-        break;
-    }
-}
+//         ignoreLine();
+//         break;
+//     }
+// }
 
-void getF()
-{
-    while (true)
-    {
-        std::cout << "\nHow much of F(0-5): ";
-        int num{};
-        std::cin >> num;
+// void getF()
+// {
+//     while (true)
+//     {
+//         std::cout << "\nHow much of F(0-5): ";
+//         int num{};
+//         std::cin >> num;
 
-    if (!std::cin || num < 0 || num > 5)
-    {
-        std::cin.clear(); 
-        ignoreLine(); 
-        std::cout << "That input was invalid. Try again.\n";
-        continue;
-    }        
+//     if (!std::cin || num < 0 || num > 5)
+//     {
+//         std::cin.clear(); 
+//         ignoreLine(); 
+//         std::cout << "That input was invalid. Try again.\n";
+//         continue;
+//     }        
 
-        if (num > 0)
-        {
-            completed += num;
-        }
+//         if (num > 0)
+//         {
+//             completed += num;
+//         }
 
-        ignoreLine();
-        break;
-    }
-}
+//         ignoreLine();
+//         break;
+//     }
+// }
 
 int getTotal()
 {
@@ -167,7 +167,7 @@ int getCompleted()
         completed += chap[i];
     }
     completed += lesson;
-    return completed;
+    return completed + letteredChaps;
 }
 
 int getLeft()
