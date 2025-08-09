@@ -23,12 +23,15 @@ double percentage{};
 
 int main()
 {
+    std::cout << "\nTotal lessons: " << getTotal() << '\n';
+    std::cout << "Total Chapters: " << numOfChap + 1<< "\n\n";
+
     getChapter();
     getLesson();
     // getO();
     // getF();
 
-    std::cout << "\nTotal lessons: " << getTotal() << '\n';
+    
 
     completed = getCompleted();
     left = getLeft();
@@ -48,7 +51,7 @@ int main()
     {
     std::cout << "Completed lessons: " << completed << '\n';
     std::cout << "Lessons left: " << left << '\n';
-    std::cout << "Lesson percentage: " << percentage << "%\n";
+    std::cout << "Lesson percentage: " << percentage << "%\n\n";
     }
 }
 
@@ -61,7 +64,7 @@ void getChapter()
 {
     while (true)
     {
-        std::cout << "Chapter(1-33): ";
+        std::cout << "Current chapter(1-33): ";
         std::cin >> chapter;
 
         if (!std::cin || chapter < 1 || chapter > 33)
@@ -81,7 +84,7 @@ void getLesson()
 {
     while (true)
     {
-        std::cout << "Lesson(1-" << chap[chapter] << "): ";
+        std::cout << "current Lesson(1-" << chap[chapter] << "): ";
         std::cin >> lesson;
 
         if (!std::cin || lesson < 1 || lesson > chap[chapter])
