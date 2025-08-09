@@ -1,6 +1,6 @@
 # LearnCpp.com Practice Repository
 
-This repository contains my personal practice code and exercises from [LearnCpp.com](httpswww.learncpp.co), as I work toward mastering modern C++.
+This repository contains my personal practice code and exercises from [LearnCpp.com](httpswww.learncpp.co), as I work toward mastering C++.
 
 ## 🛠️ Tools Used
 
@@ -28,8 +28,8 @@ This repository contains my personal practice code and exercises from [LearnCpp.
 - ✅ **Chapter 10** (10)  
 - ✅ **Chapter 11** (11)  
 - ✅ **Chapter F** (5)  *(Optional: Constexpr Functions)*  
-- 🟡 **Chapter 12** (14)  
-- ❌ **Chapter 13** (15)  
+- ✅ **Chapter 12** (14)  
+- 🟡 **Chapter 13** (15)  
 - ❌ **Chapter 14** (15)  
 - ❌ **Chapter 15** (11)  
 - ❌ **Chapter 16** (12)  
