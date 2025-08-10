@@ -73,10 +73,13 @@ int main()
     }
     else
     {
-        std::cout << "\nTotal lessons: " << total << '\n';
+        std::cout << "\nTotal lessons: " << total << "\n\n";
+
         std::cout << "Completed lessons: " << completed << '\n';
         std::cout << "Lessons left: " << left << '\n';
         std::cout << "Lesson percentage: " << percentage << "%\n\n";
+
+        std::cout << "Days left: " << left / 3.0 << '\n';
     }
 }
 
