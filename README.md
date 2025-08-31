@@ -30,8 +30,8 @@ This repository contains my personal practice code and exercises from [LearnCpp.
 - ✅ **Chapter F** (5)  *(Optional: Constexpr Functions)*  
 - ✅ **Chapter 12** (14)  
 - ✅ **Chapter 13** (15)  
-- 🟡 **Chapter 14** (15)  
-- ❌ **Chapter 15** (11)  
+- ✅ **Chapter 14** (15)  
+- 🟡 **Chapter 15** (11)  
 - ❌ **Chapter 16** (12)  
 - ❌ **Chapter 17** (13)  
 - ❌ **Chapter 18** (4)  *(Under construction: Fewer lessons for now)*  
